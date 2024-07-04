@@ -8,7 +8,7 @@ source ~/.bashrc
 cat <<EOL > ~/.terraformrc
 provider_installation {
   dev_overrides {
-      "hashicorp.com/edu/hashicups" = "$GOBIN"
+      "hashicorp.com/dev/onelogin" = "$GOBIN"
   }
 
   direct {}
